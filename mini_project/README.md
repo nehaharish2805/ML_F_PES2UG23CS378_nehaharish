@@ -1,24 +1,24 @@
-# Fake News Detection Using Images with Deep Learning 🧠📰
+# Fake News Detection Using Images with Deep Learning 
 
-## 📘 Project Overview
+##  Project Overview
 This project focuses on detecting **fake news images** using deep learning. With the increasing use of manipulated or misleading images in social media and online news, traditional text-based detection is insufficient.  
 Our goal is to classify whether a news image is **real or fake** using **Convolutional Neural Networks (CNNs)** such as **ResNet50**, **ResNet18**, and **VGG16**.
 
-## 🚀 Features
+##  Features
 - Image-only fake news detection.
 - Transfer learning with pre-trained CNN models.
 - Supports evaluation metrics: accuracy, precision, recall, F1-score.
 - Visual explanation with Grad-CAM (optional).
 - Web-based interactive detector (can be deployed with Gradio/Streamlit).
 
-## 🧩 Technologies Used
+##  Technologies Used
 - **Python 3.10+**
 - **TensorFlow / Keras**
 - **NumPy, Matplotlib, scikit-learn**
 - **Kaggle Dataset Integration**
 - **Google Colab or Kaggle Notebook** environment
 
-## 📂 Dataset
+##  Dataset
 Dataset used: [Multilingual Fake News Images (BN + EN)](https://www.kaggle.com/datasets/evilspirit05/multilingual-fake-news-images-bn-en)
 
 - Contains real and fake news images in multiple languages.
@@ -32,7 +32,7 @@ Dataset used: [Multilingual Fake News Images (BN + EN)](https://www.kaggle.com/d
       real/
   ```
 
-## ⚙️ How to Run
+##  How to Run
 
 ### Option 1 — Run on Kaggle Notebook
 1. Go to [Kaggle Notebooks](https://www.kaggle.com/code).
@@ -55,7 +55,7 @@ Dataset used: [Multilingual Fake News Images (BN + EN)](https://www.kaggle.com/d
 3. Download the dataset from Kaggle and place it inside `data/` folder.
 4. Run the notebook in Jupyter or VSCode.
 
-## 📊 Model Performance
+##  Model Performance
 Example output (ResNet18 model):
 ```
 Found 722 images belonging to 2 classes.
@@ -71,7 +71,7 @@ Classification Report:
         Real       0.69      0.81      0.74       385
 ```
 
-## 🌐 Web App Demo (Optional)
+##  Web App Demo (Optional)
 An optional Gradio-based interface can be deployed:
 ```python
 import gradio as gr
@@ -79,17 +79,11 @@ gr.Interface(fn=predict_image, inputs="image", outputs="label").launch()
 ```
 This allows users to upload an image and instantly check whether it’s real or fake.
 
-## 🔮 Future Improvements
-- Combine image and text (multimodal fake news detection).
-- Use advanced architectures (EfficientNet, Vision Transformers).
-- Larger multilingual datasets.
-- Explainability integration using Grad-CAM or LIME.
 
-## 👩‍💻 Authors
+##  Authors
 **Team 25 — Fake News Detection Using Images**  
-Department of Computer Science, [Your Institution Name]
 
 ---
-📅 *Project Type:* Mini Project  
-📚 *Domain:* Machine Learning / Deep Learning  
-🧠 *Objective:* Identify fake news from image data to combat misinformation.
+ *Project Type:* Mini Project  
+ *Domain:* Machine Learning / Deep Learning  
+ *Objective:* Identify fake news from image data to combat misinformation.
