@@ -39,7 +39,7 @@ Dataset used: [Multilingual Fake News Images (BN + EN)](https://www.kaggle.com/d
 2. Create a new notebook.
 3. Click **Add Dataset** → search for “multilingual-fake-news-images-bn-en” and attach it.
 4. Enable GPU from Notebook Settings.
-5. Upload this notebook: **MINI_PROJECT_TEAM25_(2).ipynb**.
+5. Upload this notebook: **MINI_PROJECT_TEAM25_2.ipynb**.
 6. Run all cells sequentially.
 
 ### Option 2 — Run Locally
